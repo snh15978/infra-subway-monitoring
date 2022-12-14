@@ -57,15 +57,15 @@ npm run dev
        - 420,000 = 하루 사용자 수 중 10% 사용자만 사용한다고 가정
 
    - 피크 시간대의 예상 집중률
-     - 2배 정도로 설정하였습니다.(https://www.bigdata-map.kr/datastory/traffic/seoul)
+     - 2배 정도로 설정했습니다.(https://www.bigdata-map.kr/datastory/traffic/seoul)
 
    - 1명당 1일 평균 예상 접속 혹은 요청수
-     - 2번으로 설정하였습니다.(https://news.mt.co.kr/mtview.php?no=2021090916014079809)
+     - 2번으로 설정했습니다.(https://news.mt.co.kr/mtview.php?no=2021090916014079809)
 
    - Throughput
-     - 1일 총 접속 수 = DAU X 1명당 1일 평균 접속수 = 840000
+     - 1일 총 접속 수 = DAU X 1명당 1일 평균 접속 수 = 840000
      - 1일 평균 rps = 1일 총 접속 수 / 86,400 (초/일) = 840000/86,400 = 9.7
-     - 1일 최대 rps = 1일 평균 rps X (최대 트래픽 / 평소 트래픽) = 19.4
+     - 1일 최대 rps = 1일 평균 rps X (최대 트래픽 / 평소 트래픽) = 9.7*2 = 19.4
 
    - VUser
      - T = 4 * 0.1 (+1s) = 1.4
