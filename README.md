@@ -100,6 +100,9 @@ npm run dev
     - js/vendors.js
     - /js/main.js
 - 렌더링 차단 리소스 제거
+- API 응답 속도 10ms 이하로 줄이기
+  - GET/member/me
+  - GET /stations
 ---
 
 ### 2단계 - 부하 테스트 
